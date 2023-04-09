@@ -1,0 +1,71 @@
+baseURL = "https://examplesite.com/"
+languageCode = "en-us"
+title = "Sushanti"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Sushanti Kerani"
+description = "itsasmolsush"
+keywords = [ "Blog", "Portfolio" ]
+author = "Me"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.label]
+  text = "Sushanti"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.homeInfoParams]
+  Title = "Hi 👋"
+  Content = "I'm a software developer at Yellow.ai. \n Previously @ Dragonfruit.ai. \n I tap into coding, reading, fitness & music in life."
+
+  [[menu.main]]
+  name = "Resume"
+  url = "https://drive.google.com/file/d/1dn3Y1V_ibiqlldfy6XhD0EPh-0KbRiZA/view?usp=sharing"
+  weight = 2.5
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/Sushanti_Kerani"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/sushanti-kerani/"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Sushanti99"
+
+  [[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
